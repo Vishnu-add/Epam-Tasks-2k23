@@ -1,0 +1,172 @@
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 530;
+    margin: 0;
+}
+footer {
+    background-color: #273852;
+    padding: 6px;
+    margin-bottom: 0;
+    color: white;
+    
+}
+
+
+
+.options {
+    padding: 6px 6px 6px 6px;
+    width: 150%;
+    margin: 2px;
+    background-color:azure;
+}
+
+
+.heading {
+    /* align-items: center; */
+    background-color: #273852;
+    /* margin: 10 10 10 10; */
+    /* padding: 3px 10px 10px 250px; */
+    width: 100%;
+    height: 20%;
+    display : flex;
+    justify-content: center;
+}
+.title{
+    border: 1px solid #cf6046;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    display: inline-block;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: -0.5em;
+    /* adjust the margin to reduce space */
+}
+
+p {
+    text-align: center;
+    font-size: small;
+    margin-top: 0.5em;
+    /* adjust the margin to reduce space */
+}
+
+nav {
+    height: 10px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 25px 25px 25px 25px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 5px;
+    padding:0;
+    display: block;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+nav li {
+    margin: -30px 10px;
+    display: inline-block;
+}
+
+.cat
+{
+    float: left;
+    
+}
+.tit {
+    text-align: center;
+    margin-right: 150px;
+}
+.subscribe {
+    float: right;
+    
+}
+
+#subs {
+    /* padding: 10px 10px 10px 10px; */
+    background-color: #273852;
+    color: aliceblue;
+    width: 75px;
+    border: 1px solid #273852;
+}
+input {
+    width: 150px;
+    padding: 6px 6px 6px 6px;
+    background-color: azure;
+    border: 1px solid grey;
+}
+
+input, #subs
+{
+    padding: 6px 6px 6px 6px;
+    margin-top: 0%;
+    
+}
+.no_margin
+{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+select {
+    margin-left: -35px;
+}
+#texty {
+    /* margin-left: -130px; */
+    margin-right: 165px;
+}
+
+
+.news {
+    display: flex;
+    justify-content: center;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 5px 5px 5px ;
+}
+
+.news1 {
+    display: flex;
+    /* align-items: left; */
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.news1 h3, .news1 p {
+    margin: 0;
+}
+
+.news1 button {
+    padding: 8px;
+    background-color: #cf6046;
+    color: #fff;
+    border: none;
+    /* border-radius: 5px; */
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.all_news p {
+    text-align: left;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}

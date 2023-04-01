@@ -1,0 +1,125 @@
+/* For screens 768px and below */
+@media screen and (max-width: 800px) {
+    .heading {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0;
+    }
+
+    .title {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+
+    nav li {
+        margin: 0 0 10px 0;
+        font-size: small;
+    }
+    
+    .cat select {
+        /* margin-left: 50; */
+    }
+
+    .subscribe {
+        margin-top: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 0;
+        /* font-size: smaller; */
+    }
+    input[type="text"] {
+            font-size: 13px;
+            width: 45%;
+    }
+    #subs {
+        font-size: 11px;
+        width: 70px;
+        padding: 7.5px;
+    }
+    .no_margin {
+        margin-top: 0%;
+    }
+    .tit {
+        text-align: center;
+        margin-left: 120px;
+        margin-right: 5px;
+    }
+    #texty {
+        margin-right: 50px;
+        margin-left: -70px;
+    }
+    .news {
+        display: inline-block;
+    }
+    .news1 {
+        /* flex-direction: column; */
+        /* align-items:center; */
+    }
+
+    .news1 img {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .all_news
+    {
+        align-items: center;
+    }
+}
+
+/* For screens 480px and below */
+@media screen and (max-width: 675px) {
+    .news {
+        margin: 5px;
+    }
+    .cat select {
+        /* margin-left: -80px; */
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .subscribe {
+        margin-top: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 0;
+        margin-right: -50px;
+        /* font-size: smaller; */
+    }
+
+    input[type="text"] {
+        font-size: 10px;
+        width: 35%;
+    }
+
+    #subs {
+        font-size: 10px;
+        width: 60px;
+        padding: 7px;
+        border: 0;
+    }
+
+    .no_margin {
+        margin-top: 0%;
+        margin-left: -10px;
+    }
+    .options {
+        margin-left: -20px;
+    }
+
+    .tit {
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    #texty {
+        margin-right: 0%;
+        margin-left: -70px;
+    }
+}
